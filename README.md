@@ -2,10 +2,16 @@
 
 ---
 
-## Calendly
+## [Calendly](https://calendly.com/)
 
 ### Providers:
 [Providers must make their own Calendly account](https://calendly.com/event_types/user/me) 
+which has limited functionality, unless it is paid <br />
+<br/>
+Only paid accounts can have: <br />
+- More than one event type 
+- Group meetings scheduling
+- Paypal integration
 
 ### Patients:
 Easiest option for the patient <br />
@@ -20,16 +26,11 @@ See demo in: localhost:8000/
 Providers must get a calendly account, independently from us <br />
 - We would grab needed information *from* their existing accounts (oauth) <br />
 
-Only paid accounts can have: <br />
-- More than one event type 
-- Group meetings scheduling
-- Paypal integration
-
 ---
 ## Google
 ### Providers:
 See demo in: localhost:8000/goovider <br />
-*Setting availability here:* https://calendar.google.com/calendar/r?tab=mc <br />
+[Setting availability here](https://calendar.google.com/calendar/r?tab=mc)<br />
 
 ### Patients:
 Would need to have google account to access the "nice" scheduling options <br />
@@ -45,3 +46,40 @@ See demo in: localhost:8000/googlatient <br />
 	1.1 If using "appointments" feature, patients would NEED a gmail account
 1. Providers must go to outside of our website to edit their calendar/ set their availability 
 1. Providers/patients WITHOUT a google account wouldn't be able to book
+
+---
+## [FullCalendar](https://fullcalendar.io/)
+### Providers:
+See demo in: fullcalendar_experiment folder <br />
+No need to create any weird accounts <br/ >
+
+### Patients:
+No need to create extra accounts <br />
+
+#### Pros:
+1. No need to create extra accounts for anyone
+	1.1 Can remain "sticky"
+1. Very flexible. Can implement all the features we want.
+1. Can be synced to google calendar
+
+#### Cons:
+1. Only has google calendar integration (no outlook/ical)
+1. The functions are there, but most features have to be implemented by us
+
+---
+## [DHTMLX](https://dhtmlx.com/docs/products/dhtmlxScheduler/)
+### Providers:
+See demo in:  honestly was going to upload something but, the demos in their website are so much better and plentiful <br />
+No need to create any weird accounts <br/ >
+
+### Patients:
+No need to create extra accounts <br />
+
+#### Pros:
+1. No need to create extra accounts for anyone
+1. Can be synced to google calendar
+1. Has all ideal features (blocked off days/business hours) already made <br/>
+(would need to put it together, of course)
+
+#### Cons:
+1. Price? I'm not very clear about their kinds of licenses (paid unless open source it seems)
