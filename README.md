@@ -26,6 +26,10 @@ See demo in: localhost:8000/
 Providers must get a calendly account, independently from us <br />
 - We would grab needed information *from* their existing accounts (oauth) <br />
 
+2 options, for most of these kinds of services:
+- Each provider must get their own account (paid or otherwise)
+- Get a "parent account," as if all providers worked under the same organization
+
 ---
 ## Google
 ### Providers:
