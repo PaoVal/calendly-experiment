@@ -41,14 +41,14 @@ Would need to have google account to access the "nice" scheduling options <br />
 See demo in: localhost:8000/googlatient <br />
 
 #### Pros:
-1. Easier implementation for developers (most is already done)
+1. Easier implementation for developers (most is already done, just need OAuth)
 1. Syncs with google - Wide reach, a lot of people use google
 	
 
 #### Cons:
 1. Providers would NEED a GSuite account to access "appointments" feature or "working hours" feature
 	1.1 If using "appointments" feature, patients would NEED a gmail account
-1. Providers must go to outside of our website to edit their calendar/ set their availability 
+1. Providers must go to outside of our website to edit their calendar/ set their availability (still searching)
 1. Providers/patients WITHOUT a google account wouldn't be able to book
 
 ---
@@ -65,6 +65,7 @@ No need to create extra accounts <br />
 	1.1 Can remain "sticky"
 1. Very flexible. Can implement all the features we want.
 1. Can be synced to google calendar
+1. Free
 
 #### Cons:
 1. Only has google calendar integration (no outlook/ical)
