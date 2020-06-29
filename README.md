@@ -48,8 +48,8 @@ See demo in: localhost:8000/googlatient <br />
 #### Cons:
 1. Providers would NEED a GSuite account to access "appointments" feature or "working hours" feature
 	1.1 If using "appointments" feature, patients would NEED a gmail account
-1. Providers must go to outside of our website to edit their calendar/ set their availability (still searching)
-1. Providers/patients WITHOUT a google account wouldn't be able to book
+1. Providers must go to outside of our website to edit their calendar/ set their availability (CONFIRMED)
+1. Providers/patients WITHOUT a google account wouldn't be able to book (we can work around this with [this](https://stackoverflow.com/questions/42022277/google-calendar-event-created-updated-deleted-webhook) and [this](https://stackoverflow.com/questions/53769664/how-do-i-setup-webhooks-in-google-calendar-to-notify-the-users-x-minutes-before))
 
 ---
 ## [FullCalendar](https://fullcalendar.io/)
@@ -65,11 +65,11 @@ No need to create extra accounts <br />
 	1.1 Can remain "sticky"
 1. Very flexible. Can implement all the features we want.
 1. Can be synced to google calendar
-1. Free
+1. Free & Open Source!
 
 #### Cons:
 1. Only has google calendar integration (no outlook/ical)
-1. The functions are there, but most features have to be implemented by us
+1. The functions are there, but most features have to be implemented by us (Time consuming)
 
 ---
 ## [DHTMLX](https://dhtmlx.com/docs/products/dhtmlxScheduler/)
