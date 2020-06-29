@@ -43,13 +43,14 @@ See demo in: localhost:8000/googlatient <br />
 #### Pros:
 1. Easier implementation for developers (most is already done, just need OAuth)
 1. Syncs with google - Wide reach, a lot of people use google
+1. [Interactive google calendar for provider](https://blog.daftcode.pl/react-calendar-with-google-calendar-as-cms-tutorial-5f5d81e425a9)
 	
 
 #### Cons:
 1. Providers would NEED a GSuite account to access "appointments" feature or "working hours" feature
 	1.1 If using "appointments" feature, patients would NEED a gmail account
-1. Providers must go to outside of our website to edit their calendar/ set their availability (CONFIRMED)
-1. Providers/patients WITHOUT a google account wouldn't be able to book (we can work around this with [this](https://stackoverflow.com/questions/42022277/google-calendar-event-created-updated-deleted-webhook) and [this](https://stackoverflow.com/questions/53769664/how-do-i-setup-webhooks-in-google-calendar-to-notify-the-users-x-minutes-before))
+1. Providers must go to outside of our website to edit their calendar/ set their availability [CONFIRMED](https://issuetracker.google.com/issues/36757162)
+1. Providers/patients WITHOUT a google account wouldn't be able to book (**we can work around this** with [this](https://stackoverflow.com/questions/42022277/google-calendar-event-created-updated-deleted-webhook) and [this](https://stackoverflow.com/questions/53769664/how-do-i-setup-webhooks-in-google-calendar-to-notify-the-users-x-minutes-before))
 
 ---
 ## [FullCalendar](https://fullcalendar.io/)
@@ -64,7 +65,7 @@ No need to create extra accounts <br />
 1. No need to create extra accounts for anyone
 	1.1 Can remain "sticky"
 1. Very flexible. Can implement all the features we want.
-1. Can be synced to google calendar
+1. Can be synced to google calendar [gcal](https://fullcalendar.io/docs/google-calendar)
 1. Free & Open Source!
 
 #### Cons:
